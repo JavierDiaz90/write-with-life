@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write with Life"
+  short_description: "Recompose flat prose with structure and voice"
+  default_prompt: "Use $write-with-life to recompose this draft with stronger structure, emphasis, rhythm, and an authentic voice without inventing facts."
