@@ -1,6 +1,6 @@
 ---
 name: write-with-life
-description: Recompose flat, generic, over-structured, or AI-sounding prose into vivid, intentional writing by rebuilding structure, emphasis, narrator stance, tone, rhythm, and sentence texture while preserving supported facts. Use when users ask to humanize, enliven, de-AI, strengthen voice, improve flow, fix boring structure, make prose feel authored, or turn notes into compelling nonfiction; when editing articles, essays, reports, launch posts, profiles, newsletters, or scripts; and when a draft is grammatically sound but lifeless, formulaic, equally weighted, or organized as predictable sections and lists.
+description: Recompose flat, generic, over-structured, or AI-sounding prose into vivid, intentional writing by rebuilding structure, emphasis, narrator stance, tone, rhythm, and sentence texture while preserving supported facts. Use when users ask to humanize, enliven, de-AI, strengthen voice, improve flow, fix boring structure, make prose feel authored, or turn notes into compelling nonfiction; when editing articles, essays, reports, launch posts, profiles, interviews, Q&A responses, newsletters, or scripts; and when a draft is grammatically sound but lifeless, formulaic, equally weighted, or organized as predictable sections and lists.
 ---
 
 # Write with life
@@ -15,6 +15,7 @@ Treat sentence cleanup as the last pass. First decide what the piece is doing, w
 - Never invent a scene, observation, experience, emotion, anecdote, quotation, source, or concrete detail to make nonfiction feel human.
 - Distinguish factual fidelity from structural fidelity. Keep the truth; change the order, proportion, framing, and paragraph shape when the piece needs it.
 - Preserve all substantive claims in strict rewrites. In developmental rewrites, cut repetition and empty claims; flag any consequential omission.
+- Preserve irregularities that reveal how the writer or speaker thinks. Do not trade them all for efficiency, consistency, or polish.
 - Treat a sample written by the user as the strongest voice evidence. Treat published writers as craft teachers, not voices to counterfeit.
 - Preserve code, data, frontmatter, quotations, citations, and link targets unless the user asks to change them.
 
@@ -23,8 +24,9 @@ Treat sentence cleanup as the last pass. First decide what the piece is doing, w
 Infer the least restrictive mode that fulfills the request:
 
 1. **Sentence polish:** Keep the structure when the user asks for a light edit or the structure already works.
-2. **Developmental rewrite:** Rebuild order, emphasis, openings, transitions, and endings. Use this by default for requests to humanize or enliven a flat draft.
-3. **Reporting assist:** When the desired life depends on facts or scenes the source does not contain, improve what is possible and list a few precise reporting questions instead of fabricating material.
+2. **Spoken-voice edit:** Preserve the speaker's route of thought in interviews, Q&A responses, quotations, and transcripts. Read [interviews-and-spoken-voice.md](references/interviews-and-spoken-voice.md). Use this by default for interview material unless the user requests a polished statement or article.
+3. **Developmental rewrite:** Rebuild order, emphasis, openings, transitions, and endings. Use this by default for requests to humanize or enliven a flat prose draft.
+4. **Reporting assist:** When the desired life depends on facts or scenes the source does not contain, improve what is possible and list a few precise reporting questions instead of fabricating material.
 
 Do not ask the user to choose a mode unless the choice would materially change what may be cut or rewritten.
 
@@ -52,6 +54,8 @@ If every point seems equally important, the draft has not yet found its emphasis
 State privately: `This piece is about ___, under pressure from ___, so that the reader sees ___ differently.`
 
 Choose one governing movement. Do not combine the most exciting fragments of several different stories. For pieces longer than a few paragraphs, read [structure-and-emphasis.md](references/structure-and-emphasis.md) and select an architecture that fits the available material.
+
+For an interview or Q&A, find the center of each answer without forcing every answer into one shared architecture. Let some answers remain brief, exploratory, repetitive, or open-ended when that reflects the source.
 
 ### 4. Build an emphasis map
 
@@ -86,6 +90,8 @@ Vary syntax because the thought changes, not to satisfy a rhythm formula. Use sh
 
 Read the draft aloud. Listen for an unbroken mid-length cadence, repeated paragraph shapes, fake punchlines, throat-clearing, and places where the prose sounds more certain or emotional than the evidence permits.
 
+Set a polish ceiling. Stop when the writing is clear, credible, and alive. Do not make every transition seamless, every paragraph balanced, or every ending conclusive.
+
 Reject canned reversal sentences such as "not X but Y," "it isn't X; it's Y," and "doesn't need X; needs Y." State the intended claim directly. Preserve an explicit contrast only when it corrects a real, consequential misunderstanding established by the material.
 
 ### 8. Apply sentence hygiene
@@ -103,6 +109,7 @@ Compare the rewrite with the source:
 - Does the ending deliver or deliberately complicate that promise?
 - Could this narrator credibly know, notice, and say these things?
 - Does any paragraph exist only because the original had one there?
+- Did the edit impose one consistent editorial intelligence on material that originally had variation, hesitation, or rough edges?
 
 Fix failures before returning the result.
 

@@ -14,6 +14,7 @@ The skill can:
 - choose an architecture that fits the available material;
 - give consequential ideas more space and supporting material less;
 - establish the narrator's authority, distance, temperature, and relationship with the reader;
+- preserve the route of thought and useful irregularity in interviews and Q&A responses;
 - control pace through paragraph movement and sentence rhythm;
 - preserve deliberate fragments, repetition, triads, dashes, and other useful irregularities;
 - remove stock AI language during a final sentence-hygiene pass;
@@ -26,8 +27,9 @@ It is designed for essays, articles, reports, launch posts, profiles, newsletter
 The skill selects the depth of edit that the request requires:
 
 1. **Sentence polish** keeps a structure that already works.
-2. **Developmental rewrite** changes order, proportion, transitions, openings, and endings.
-3. **Reporting assist** improves the available prose and surfaces the few details needed to take it further.
+2. **Spoken-voice edit** keeps interviews clear without turning every answer into a miniature essay.
+3. **Developmental rewrite** changes order, proportion, transitions, openings, and endings.
+4. **Reporting assist** improves the available prose and surfaces the few details needed to take it further.
 
 For a developmental rewrite, it maps the material, finds a governing movement, ranks each beat by importance, chooses the narrator, and drafts from that new plan. Sentence cleanup comes last.
 
@@ -101,6 +103,7 @@ write-with-life/
 │   └── openai.yaml
 └── references/
     ├── sentence-hygiene.md
+    ├── interviews-and-spoken-voice.md
     ├── structure-and-emphasis.md
     └── voice-rhythm-and-tone.md
 ```

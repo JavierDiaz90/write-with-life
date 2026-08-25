@@ -33,6 +33,7 @@ Watch for clusters of these habits:
 - reversal templates that manufacture emphasis by rejecting one idea and replacing it with another: "not X but Y," "it isn't X; it's Y," "doesn't need X; needs Y," "less about X than Y," and similar constructions;
 - stacked adjectives, intensifiers, and promotional language;
 - strings of polished mid-length sentences with identical weight;
+- answers or sections that all open with a thesis and close with a polished verdict;
 - metaphors or sayings that sound memorable but make the claim less precise;
 - transitions such as "additionally" or "moreover" where no relationship has been established;
 - casual stage business such as "honestly" or "here's the thing" that performs intimacy without earning it.
@@ -78,6 +79,7 @@ Ask:
 5. Is a supposedly human detail actually supported?
 6. Has cleanup erased useful strangeness, tension, or personality?
 7. Did the rewrite create emphasis with a "not X; Y" reversal instead of earning it through evidence, position, or detail?
+8. Did the cleanup remove so much local variation that one editorial voice now dominates the whole piece?
 
 ## Attribution
 
